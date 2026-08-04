@@ -39219,7 +39219,7 @@ for(s=q.b;r=q.c,r>s;){q.q5()
 if(q.d<280)return r}q.d=u.t.charCodeAt((q.d&-4)+18)
 return s}}
 A.F0.prototype={
-N(a){return new A.wU(B.Df,"ChemST Mobile",A.rs(B.a3,null,null).aev(B.cY,B.B_,B.Bm),!1,null)}}
+N(a){return new A.wU(B.Df,"ChemST",A.rs(B.a3,null,null).aev(B.cY,B.B_,B.Bm),!1,null)}}
 A.wf.prototype={
 aj(){return new A.NP(A.d([B.JM,B.HT,B.Ch],t.E))}}
 A.NP.prototype={
@@ -83396,7 +83396,7 @@ B.PQ=new A.q(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.Nw=new A.q(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.QG=new A.dY(B.OV,B.O4,B.OW,B.Pi,B.NP,B.NW,B.Ol,B.Pe,B.Ov,B.PB,B.Np,B.NE,B.Py,B.PQ,B.Nw)
 B.QH=new A.jT("PubChem'de Ara",null,null,null,null,null,null,null,null)
-B.QI=new A.jT("\ud83e\uddea ChemST Mobile",null,B.hE,null,null,null,null,null,null)
+B.QI=new A.jT("\ud83e\uddea ChemST",null,B.hE,null,null,null,null,null,null)
 B.QJ=new A.jT("Re\xe7ete Hesapla",null,null,null,null,null,null,null,null)
 B.QK=new A.jT("Seyreltme Hesapla",null,null,null,null,null,null,null,null)
 B.TP=new A.aai(0,"system")
