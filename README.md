@@ -1,12 +1,13 @@
+<p align="center">
+  <img src="logo.png" alt="ChemST Logo" width="200"/>
+</p>
+
 # ChemST - Smart Chemical Solution & PubChem Assistant
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-**ChemST** is an open-source chemical assistant designed for chemists, researchers, and students to streamline solution preparation, dilution calculations, and PubChem database queries.
-
 ---
 
 ## Live Demo
