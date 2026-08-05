@@ -1,39 +1,89 @@
-# 🧪 ChemST - Smart Chemical Solution & PubChem Assistant
+# ChemST - Smart Chemical Solution & PubChem Assistant
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-**ChemST**, laboratuvar ortamında kimyagerler, araştırmacılar ve öğrenciler için çözelti hazırlama, seyreltme hesaplamaları ve PubChem veritabanı sorgularını saniyelere indiren modern, açık kaynaklı bir kimya asistanıdır.
+**ChemST** is an open-source chemical assistant designed for chemists, researchers, and students to streamline solution preparation, dilution calculations, and PubChem database queries.
 
 ---
 
-## 🚀 Canlı Demo (Live Demo)
+## Live Demo
 
-Web uygulamasını hemen denemek için:
-👉 **[ChemST Web Application Live](https://efatihalbayin.github.io/chemst-web/)**
-
----
-
-## ✨ Öne Çıkan Özellikler (Key Features)
-
-- 🔍 **PubChem Live Search:** Molekül adıyla saniyeler içinde IUPAC adı, PubChem CID ve Molekül Ağırlığı ($MW$) sorgulama.
-- ⚖️ **Molar Çözelti Hesaplayıcı:** Hedef Molarite ($M$), Hacim ($mL$), Saflık (%) ve Hidrat Suyu ($H_2O$) katsayılarını dikkate alarak hassas kütle reçetesi oluşturma.
-- 💧 **Seyreltme Matrisi ($C_1V_1 = C_2V_2$):** Stok çözeltiden çekilecek hacmi ve eklenmesi gereken çözücü miktarını anında hesaplama.
-- 🎨 **Modern & Dark UI:** Laboratuvar ortamında gözü yormayan şık ve responsive koyu tema arayüzü.
+Try the live web application:
+[ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)
 
 ---
 
-## 🏗️ Sistem Mimarisi (System Architecture)
+## Key Features
 
-Proje, 3 katmanlı modüler bir yazılım mimarisi üzerine inşa edilmiştir:
+- **PubChem Live Search:** Query IUPAC names, PubChem CID, and Molecular Weight ($MW$) by compound name.
+- **Molar Solution Calculator:** Generate precise mass recipes considering target Molarity ($M$), Volume ($mL$), Purity (%), and Hydration Water ($H_2O$) coefficients.
+- **Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock volume and additional solvent volume.
+- **Modern Dark UI:** Clean, responsive dark-themed interface optimized for laboratory environments.
+
+---
+
+## System Architecture
+
+The project is built on a 3-tier modular software architecture:
 
 ```text
-[ 🌐 Flutter Web / Mobile Frontend ]
+[ Flutter Web / Mobile Frontend ]
                  │
                  ▼  (REST API - JSON)
-[ ⚡ FastAPI Backend Engine (Render) ]
+[ FastAPI Backend Engine (Render) ]
                  │
                  ▼  (Core Logic)
-[ 🧪 chemst Core Python Package (PyPI) ]
+[ chemst Core Python Package (PyPI) ]
+```
+
+1. **Core Package:** The `chemst` Python library published on PyPI.
+2. **Backend Service:** A FastAPI microservice running 24/7 on Render.
+3. **Frontend:** Single-codebase Flutter Web / PWA client application.
+
+---
+
+## Local Development
+
+### 1. Install Python Package (`chemst`)
+
+```bash
+pip install chemst
+
+```
+
+### 2. Run API Service Locally
+
+```bash
+git clone [https://github.com/efatihalbayin/chemst-api.git](https://github.com/efatihalbayin/chemst-api.git)
+cd chemst-api
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+```
+
+### 3. Run Flutter Web Frontend
+
+```bash
+git clone [https://github.com/efatihalbayin/chemst-web.git](https://github.com/efatihalbayin/chemst-web.git)
+cd chemst-web
+flutter pub get
+flutter run -d chrome
+
+```
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE). Feel free to fork, modify, and contribute.
+
+---
+
+Developed for Chemists & Researchers.
+
+```
+
+```
