@@ -1,4 +1,3 @@
-```markdown
 # ChemST - Smart Chemical Solution & PubChem Assistant
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
@@ -38,7 +37,6 @@ The project is built on a 3-tier modular software architecture:
                  │
                  ▼  (Core Logic)
 [ chemst Core Python Package (PyPI) ]
-
 ```
 
 1. **Core Package:** The `chemst` Python library published on PyPI.
