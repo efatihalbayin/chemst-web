@@ -120,5 +120,3 @@ Developed with ❤️ by **Ertan Fatih Albayın**
 * **LinkedIn:** [Ertan Fatih Albayın](https://www.google.com/search?q=https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
 * **GitHub:** [@efatihalbayin](https://www.google.com/search?q=https://github.com/efatihalbayin)
 * **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
-
-```
