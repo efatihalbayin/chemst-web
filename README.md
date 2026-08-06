@@ -56,15 +56,13 @@ graph TD
     User --> Tab3[Dilution Matrix]
     
     Tab1 -->|REST API Request| PubChem[(NCBI PubChem API)]
-    Tab2 -->|Stoichiometric Core| Calc1[Mass & Hydration Engine]
+    Tab2 -->|Stoichiometric Core| Calc1[Mass and Hydration Engine]
     Tab3 -->|Volumetric Engine| Calc2[C1V1 = C2V2 Matrix]
     
     PubChem -->|Auto-Fill MW| Tab2
-    Calc1 --> Recipe1[Mass & Recipe Output]
+    Calc1 --> Recipe1[Mass and Recipe Output]
     Calc2 --> Recipe2[Dilution Instructions]
----
-
----
+```
 
 ## 💻 Tech Stack & Architecture
 
