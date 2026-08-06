@@ -64,6 +64,8 @@ graph TD
     Calc2 --> Recipe2[Dilution Instructions]
 ---
 
+---
+
 ## 💻 Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
