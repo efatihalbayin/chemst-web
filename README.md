@@ -39,11 +39,11 @@ You can use the application directly in your web browser without any installatio
 
 ## 🌟 Key Features
 
-- ** Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
-- ** Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
-- ** Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition for accurate lab dilutions.
-- ** Light & Dark Theme Toggle:** Single-click theme switching featuring a signature dark mode palette designed for low-light laboratory environments.
-- ** Fully Responsive UI:** Built with Flutter Web to deliver a smooth user experience across desktop computers, tablets, and smartphones.
+- **Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
+- **Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
+- **Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition for accurate lab dilutions.
+- **Light & Dark Theme Toggle:** Single-click theme switching featuring a signature dark mode palette designed for low-light laboratory environments.
+- **Fully Responsive UI:** Built with Flutter Web to deliver a smooth user experience across desktop computers, tablets, and smartphones.
 
 ---
 
