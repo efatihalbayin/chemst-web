@@ -1,90 +1,134 @@
+```markdown
 <p align="center">
-  <img src="logo.png" alt="ChemST Logo" width="200"/>
+  <img src="logo.png" alt="ChemST Logo" width="180">
 </p>
 
-# ChemST - Smart Chemical Solution & PubChem Assistant
+<h1 align="center">ChemST Web 🧪🌐</h1>
 
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688?logo=fastapi)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+<p align="center">
+  <b>Interactive Chemical Solution & Stoichiometry Web Application</b>
+</p>
+
+<p align="center">
+  <a href="https://efatihalbayin.github.io/chemst-web/">
+    <img src="https://img.shields.io/badge/Live_Demo-Open_Web_App-9D4EDD?style=for-the-badge&logo=flutter&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://pypi.org/project/chemst/">
+    <img src="https://img.shields.io/badge/Python_Core-ChemST_PyPI-blue?style=for-the-badge&logo=python&logoColor=white" alt="PyPI Package">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Cross--Platform_Web-brightgreen.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/Framework-Flutter_Web-02569B.svg?logo=flutter" alt="Framework">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+</p>
+
 ---
 
-## Live Demo
-
-Try the live web application:
-[ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)
+**ChemST Web** is the official interactive frontend for the **ChemST** stoichiometry engine. Designed for computational chemists, laboratory researchers, and students, it provides an intuitive, high-precision dark/light-themed interface for preparing chemical solutions, executing stock dilutions, and querying compound data directly from the **NCBI PubChem API**.
 
 ---
 
-## Key Features
+## 🚀 Live Access
 
-- **PubChem Live Search:** Query IUPAC names, PubChem CID, and Molecular Weight ($MW$) by compound name.
-- **Molar Solution Calculator:** Generate precise mass recipes considering target Molarity ($M$), Volume ($mL$), Purity (%), and Hydration Water ($H_2O$) coefficients.
-- **Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock volume and additional solvent volume.
-- **Modern Dark UI:** Clean, responsive dark-themed interface optimized for laboratory environments.
+You can use the application directly in your web browser without any installation:
+
+👉 **[Launch ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)**
 
 ---
 
-## System Architecture
+## 🌟 Key Features
 
-The project is built on a 3-tier modular software architecture:
+- **⚡ Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
+- **🧪 Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
+- **💧 Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition for accurate lab dilutions.
+- **🌗 Light & Dark Theme Toggle:** Single-click theme switching featuring a signature dark mode palette designed for low-light laboratory environments.
+- **📱 Fully Responsive UI:** Built with Flutter Web to deliver a smooth user experience across desktop computers, tablets, and smartphones.
 
-```text
-[ Flutter Web / Mobile Frontend ]
-                 │
-                 ▼  (REST API - JSON)
-[ FastAPI Backend Engine (Render) ]
-                 │
-                 ▼  (Core Logic)
-[ chemst Core Python Package (PyPI) ]
+---
+
+## 📖 Module Overview
+
+```mermaid
+graph TD
+    User([User Interface]) --> Tab1[Compound Search]
+    User --> Tab2[Solution Calculator]
+    User --> Tab3[Dilution Matrix]
+    
+    Tab1 -->|REST API Request| PubChem[(NCBI PubChem API)]
+    Tab2 -->|Stoichiometric Core| Calc1[Mass & Hydration Engine]
+    Tab3 -->|Volumetric Engine| Calc2[C1V1 = C2V2 Matrix]
+    
+    PubChem -->|Auto-Fill MW| Tab2
+    Calc1 --> Recipe1[Mass & Recipe Output]
+    Calc2 --> Recipe2[Dilution Instructions]
+
 ```
 
-1. **Core Package:** The `chemst` Python library published on PyPI.
-2. **Backend Service:** A FastAPI microservice running 24/7 on Render.
-3. **Frontend:** Single-codebase Flutter Web / PWA client application.
+---
+
+## 💻 Tech Stack & Architecture
+
+* **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
+* **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
+* **Deployment:** GitHub Pages continuous deployment
 
 ---
 
-## Local Development
+## 🛠️ Local Development & Build
 
-### 1. Install Python Package (`chemst`)
+To run or build the web application locally:
 
-```bash
-pip install chemst
-
-```
-
-### 2. Run API Service Locally
-
-```bash
-git clone [https://github.com/efatihalbayin/chemst-api.git](https://github.com/efatihalbayin/chemst-api.git)
-cd chemst-api
-pip install -r requirements.txt
-uvicorn main:app --reload
-
-```
-
-### 3. Run Flutter Web Frontend
-
+1. **Clone the repository:**
 ```bash
 git clone [https://github.com/efatihalbayin/chemst-web.git](https://github.com/efatihalbayin/chemst-web.git)
-cd chemst-web
+
+```
+
+
+2. **Get dependencies:**
+```bash
 flutter pub get
+
+```
+
+
+3. **Run locally:**
+```bash
 flutter run -d chrome
 
 ```
 
----
 
-## License
-
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE). Feel free to fork, modify, and contribute.
-
----
-
-Developed for Chemists & Researchers.
+4. **Build for Web release:**
+```bash
+flutter build web --release --base-href "/chemst-web/"
 
 ```
+
+
+
+---
+
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for details.
+
+---
+
+## 👨‍💻 Author
+
+Developed  by **Ertan Fatih Albayın**
+
+* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%C4%B1n-90a606279/)
+* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
+* **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
+
+```
+
+---
+
+Kaydedip GitHub'a push ettiğinde `chemst-web` reposu da tıpkı ana proje gibi jilet gibi görünecektir kanka!
 
 ```
