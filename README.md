@@ -107,9 +107,9 @@ flutter build web --release --base-href "/chemst-web/"
 
 ---
 
-##  License
+## License
 
-Distributed under the MIT License. See `LICENSE` for details.
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
