@@ -1,4 +1,3 @@
-```markdown
 <p align="center">
   <img src="logo.png" alt="ChemST Logo" width="180">
 </p>
@@ -63,72 +62,3 @@ graph TD
     PubChem -->|Auto-Fill MW| Tab2
     Calc1 --> Recipe1[Mass & Recipe Output]
     Calc2 --> Recipe2[Dilution Instructions]
-
-```
-
----
-
-## 💻 Tech Stack & Architecture
-
-* **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
-* **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
-* **Deployment:** GitHub Pages continuous deployment
-
----
-
-## 🛠️ Local Development & Build
-
-To run or build the web application locally:
-
-1. **Clone the repository:**
-```bash
-git clone [https://github.com/efatihalbayin/chemst-web.git](https://github.com/efatihalbayin/chemst-web.git)
-
-```
-
-
-2. **Get dependencies:**
-```bash
-flutter pub get
-
-```
-
-
-3. **Run locally:**
-```bash
-flutter run -d chrome
-
-```
-
-
-4. **Build for Web release:**
-```bash
-flutter build web --release --base-href "/chemst-web/"
-
-```
-
-
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for details.
-
----
-
-## 👨‍💻 Author
-
-Developed  by **Ertan Fatih Albayın**
-
-* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%C4%B1n-90a606279/)
-* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
-* **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
-
-```
-
----
-
-Kaydedip GitHub'a push ettiğinde `chemst-web` reposu da tıpkı ana proje gibi jilet gibi görünecektir kanka!
-
-```
