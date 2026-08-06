@@ -2,7 +2,7 @@
   <img src="logo.png" alt="ChemST Logo" width="180">
 </p>
 
-<h1 align="center">ChemST Web 🧪🌐</h1>
+<h1 align="center">🧪🌐 ChemST Web </h1>
 
 <p align="center">
   <b>Interactive Chemical Solution & Stoichiometry Web Application</b>
@@ -29,7 +29,7 @@
 
 ---
 
-## 🚀 Live Access
+##  Live Access
 
 You can use the application directly in your web browser without any installation:
 
@@ -39,11 +39,11 @@ You can use the application directly in your web browser without any installatio
 
 ## 🌟 Key Features
 
-- **⚡ Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
-- **🧪 Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
-- **💧 Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition for accurate lab dilutions.
-- **🌗 Light & Dark Theme Toggle:** Single-click theme switching featuring a signature dark mode palette designed for low-light laboratory environments.
-- **📱 Fully Responsive UI:** Built with Flutter Web to deliver a smooth user experience across desktop computers, tablets, and smartphones.
+- ** Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
+- ** Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
+- ** Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition for accurate lab dilutions.
+- ** Light & Dark Theme Toggle:** Single-click theme switching featuring a signature dark mode palette designed for low-light laboratory environments.
+- ** Fully Responsive UI:** Built with Flutter Web to deliver a smooth user experience across desktop computers, tablets, and smartphones.
 
 ---
 
@@ -117,6 +117,6 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 Developed with ❤️ by **Ertan Fatih Albayın**
 
-* **LinkedIn:** [Ertan Fatih Albayın](https://www.google.com/search?q=https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
-* **GitHub:** [@efatihalbayin](https://www.google.com/search?q=https://github.com/efatihalbayin)
+* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
+* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
 * **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
