@@ -115,7 +115,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## 👨‍💻 Author
 
-Developed with ❤️ by **Ertan Fatih Albayın**
+Developed by **Ertan Fatih Albayın**
 
 * **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
 * **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
