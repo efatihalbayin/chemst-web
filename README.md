@@ -2,7 +2,7 @@
   <img src="logo.png" alt="ChemST Logo" width="180">
 </p>
 
-<h1 align="center"> ChemST Web 🧪🌐</h1>
+<h1 align="center"> ChemST Web </h1>
 
 <p align="center">
   <b>Interactive Chemical Solution & Stoichiometry Web Application</b>
@@ -37,7 +37,7 @@ You can use the application directly in your web browser without any installatio
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
 - **Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
@@ -47,7 +47,7 @@ You can use the application directly in your web browser without any installatio
 
 ---
 
-## 📖 Module Overview
+##  Module Overview
 
 ```mermaid
 graph TD
@@ -64,7 +64,7 @@ graph TD
     Calc2 --> Recipe2[Dilution Instructions]
 ```
 
-## 💻 Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
 * **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
@@ -72,7 +72,7 @@ graph TD
 
 ---
 
-## 🛠️ Local Development & Build
+##  Local Development & Build
 
 To run or build the web application locally:
 
@@ -107,15 +107,15 @@ flutter build web --release --base-href "/chemst-web/"
 
 ---
 
-## 📜 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-Developed by **Ertan Fatih Albayın**
+Developed by **Ertan Fatih Albayın** from Istanbul Technical University (ITU)
 
 * **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
 * **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
