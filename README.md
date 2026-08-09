@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="ChemST Logo" width="180">
+  <img src="logo.png" alt="ChemST Logo" width="200">
 </p>
 
 <h1 align="center"> ChemST Web </h1>
