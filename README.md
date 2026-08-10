@@ -74,10 +74,9 @@ graph TD
     Calc1 --> Clipboard[One-Click Copy & Protocol Output]
     Calc2 --> Clipboard
     Calc3 --> Clipboard
-    
-    ---
 
-    
+```
+
 ## 🛠️ Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
