@@ -40,13 +40,13 @@ You can use the application directly in your web browser without any installatio
 ## ⚡ Key Features
 
 - **🔍 Live PubChem REST API Query:** Search compounds by name to fetch Molecular Weight (MW), IUPAC names, CAS numbers, 2D structural formulas, and copyable SMILES strings.
-- **🧪 Molar Solution Mass Calculator:** Calculate required solid mass for target molarities with automatic adjustments for purity (`% w/w`) and hydrate water molecules ($H_2O$)[cite: 6].
-- **💧 Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition[cite: 6].
-- **🎛️ Buffer & Recipe Wizard:** Automated protocol generator for standard laboratory buffers (*Tris-HCl, PBS 1X, HEPES, TE, TAE, Citrate, MOPS, etc.*) with step-by-step preparation guidelines[cite: 6].
-- **🔄 Comprehensive Chemical Unit Converter:** Convert Molar subunits ($\text{M}$ to $\text{pM}$), Analytical units ($\text{ppm, ppb, mg/L}$), Stock Acid/Base concentration & Normality ($\text{N}$), Physical units ($\text{mbar, mmHg, °C, K}$), and Spectroscopy energy ($\text{nm, cm}^{-1}, \text{eV, kJ/mol}$)[cite: 6].
-- **🌀 Rotavap & Solvent Miscibility Helper:** Check phase separation behavior (biphasic vs. miscible) across 13+ solvents and calculate vacuum boiling points using Antoine equations[cite: 6].
+- **🧪 Molar Solution Mass Calculator:** Calculate required solid mass for target molarities with automatic adjustments for purity (`% w/w`) and hydrate water molecules ($H_2O$).
+- **💧 Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition.
+- **🎛️ Buffer & Recipe Wizard:** Automated protocol generator for standard laboratory buffers (*Tris-HCl, PBS 1X, HEPES, TE, TAE, Citrate, MOPS, etc.*) with step-by-step preparation guidelines.
+- **🔄 Comprehensive Chemical Unit Converter:** Convert Molar subunits ($\text{M}$ to $\text{pM}$), Analytical units ($\text{ppm, ppb, mg/L}$), Stock Acid/Base concentration & Normality ($\text{N}$), Physical units ($\text{mbar, mmHg, °C, K}$), and Spectroscopy energy ($\text{nm, cm}^{-1}, \text{eV, kJ/mol}$).
+- **🌀 Rotavap & Solvent Miscibility Helper:** Check phase separation behavior (biphasic vs. miscible) across 13+ solvents and calculate vacuum boiling points using Antoine equations.
 - **📋 One-Click Recipe Copying:** Instant Clipboard integration to easily copy preparation instructions for lab notebooks or messaging.
-- **🎨 Responsive UI & Theme Switcher:** Smooth cross-device layout featuring a signature dark mode designed for low-light laboratory environments[cite: 6].
+- **🎨 Responsive UI & Theme Switcher:** Smooth cross-device layout featuring a signature dark mode designed for low-light laboratory environments.
 
 ---
 
@@ -77,20 +77,14 @@ graph TD
 
 ```
 
+---
+
 ## 🛠️ Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
-
-
 * **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
-
-
 * **Equations & Thermodynamics:** Custom Antoine Equation solver & Clausius-Clapeyron vacuum estimators
-
-
 * **Deployment:** GitHub Pages continuous deployment
-
-
 
 ---
 
@@ -103,37 +97,46 @@ To run or build the web application locally:
 ```bash
 git clone [https://github.com/efatihalbayin/chemst-web.git](https://github.com/efatihalbayin/chemst-web.git)
 cd chemst-web
-```[cite: 6]
+
+```
 
 2. **Get dependencies:**
+
 ```bash
 flutter pub get
-```[cite: 6]
+
+```
 
 3. **Run locally:**
+
 ```bash
 flutter run -d chrome
-```[cite: 6]
+
+```
 
 4. **Build for Web release:**
+
 ```bash
 flutter build web --release --base-href "/chemst-web/"
-```[cite: 6]
+
+```
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for details[cite: 6].
+Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
 ## ✍️ Author & Developer
 
-Developed by **Ertan Fatih Albayın**[cite: 6]
+Developed by **Ertan Fatih Albayın**
 
-* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%25C4%25B1n-90a606279/)[cite: 6]
-* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)[cite: 6]
-* **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)[cite: 6]
+* **LinkedIn:** [Ertan Fatih Albayın](https://www.google.com/search?q=https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
+* **GitHub:** [@efatihalbayin](https://www.google.com/search?q=https://github.com/efatihalbayin)
+* **Python Library:** [chemst on PyPI](https://www.google.com/url?sa=E&source=gmail&q=https://pypi.org/project/chemst/)
+
+```
 
 ```
