@@ -5,7 +5,7 @@
 <h1 align="center"> ChemST Web </h1>
 
 <p align="center">
-  <b>Interactive Chemical Solution & Stoichiometry Web Application</b>
+  <b>Interactive Chemical Solution, Buffer Protocol & Laboratory Calculation Web Application</b>
 </p>
 
 <p align="center">
@@ -25,11 +25,11 @@
 
 ---
 
-**ChemST Web** is the official interactive frontend for the **ChemST** stoichiometry engine. Designed for computational chemists, laboratory researchers, and students, it provides an intuitive, high-precision dark/light-themed interface for preparing chemical solutions, executing stock dilutions, and querying compound data directly from the **NCBI PubChem API**.
+**ChemST Web** is the official interactive frontend for the **ChemST** stoichiometry and laboratory engine. Designed for computational chemists, laboratory researchers, academicians, and students, it provides an intuitive, high-precision dark/light-themed interface for preparing chemical solutions, executing stock dilutions, generating buffer protocols, and performing advanced physical/chemical conversions.
 
 ---
 
-##  Live Access
+## 🚀 Live Access
 
 You can use the application directly in your web browser without any installation:
 
@@ -37,86 +37,104 @@ You can use the application directly in your web browser without any installatio
 
 ---
 
-##  Key Features
+## ⚡ Key Features
 
-- **Live PubChem REST API Query:** Search for chemical compounds by name to automatically fetch Molecular Weight (MW), IUPAC names, and PubChem CIDs.
-- **Molar Solution Mass Calculator:** Calculate required solid mass for target molarities, with automatic adjustments for chemical purity (`% w/w`) and hydrate water molecules ($H_2O$).
-- **Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition for accurate lab dilutions.
-- **Light & Dark Theme Toggle:** Single-click theme switching featuring a signature dark mode palette designed for low-light laboratory environments.
-- **Fully Responsive UI:** Built with Flutter Web to deliver a smooth user experience across desktop computers, tablets, and smartphones.
+- **🔍 Live PubChem REST API Query:** Search compounds by name to fetch Molecular Weight (MW), IUPAC names, CAS numbers, 2D structural formulas, and copyable SMILES strings.
+- **🧪 Molar Solution Mass Calculator:** Calculate required solid mass for target molarities with automatic adjustments for purity (`% w/w`) and hydrate water molecules ($H_2O$)[cite: 6].
+- **💧 Volumetric Dilution Matrix ($C_1V_1 = C_2V_2$):** Instant calculation of required stock solution volume ($V_1$) and necessary solvent addition[cite: 6].
+- **🎛️ Buffer & Recipe Wizard:** Automated protocol generator for standard laboratory buffers (*Tris-HCl, PBS 1X, HEPES, TE, TAE, Citrate, MOPS, etc.*) with step-by-step preparation guidelines[cite: 6].
+- **🔄 Comprehensive Chemical Unit Converter:** Convert Molar subunits ($\text{M}$ to $\text{pM}$), Analytical units ($\text{ppm, ppb, mg/L}$), Stock Acid/Base concentration & Normality ($\text{N}$), Physical units ($\text{mbar, mmHg, °C, K}$), and Spectroscopy energy ($\text{nm, cm}^{-1}, \text{eV, kJ/mol}$)[cite: 6].
+- **🌀 Rotavap & Solvent Miscibility Helper:** Check phase separation behavior (biphasic vs. miscible) across 13+ solvents and calculate vacuum boiling points using Antoine equations[cite: 6].
+- **📋 One-Click Recipe Copying:** Instant Clipboard integration to easily copy preparation instructions for lab notebooks or messaging.
+- **🎨 Responsive UI & Theme Switcher:** Smooth cross-device layout featuring a signature dark mode designed for low-light laboratory environments[cite: 6].
 
 ---
 
-##  Module Overview
+## 🧩 Module Overview
 
 ```mermaid
 graph TD
     User([User Interface]) --> Tab1[Compound Search]
     User --> Tab2[Solution Calculator]
     User --> Tab3[Dilution Matrix]
+    User --> Tab4[Buffer Wizard]
+    User --> Tab5[Unit Converter]
+    User --> Tab6[Rotavap & Solvents]
     
     Tab1 -->|REST API Request| PubChem[(NCBI PubChem API)]
-    Tab2 -->|Stoichiometric Core| Calc1[Mass and Hydration Engine]
+    Tab2 -->|Stoichiometric Core| Calc1[Mass & Hydration Engine]
     Tab3 -->|Volumetric Engine| Calc2[C1V1 = C2V2 Matrix]
+    Tab4 -->|Protocol Engine| Calc3[Buffer Recipe Generator]
+    Tab5 -->|Conversion Engine| Calc4[Multi-Unit Converter]
+    Tab6 -->|Thermodynamic Engine| Calc5[Antoine & Miscibility Checker]
     
     PubChem -->|Auto-Fill MW| Tab2
-    Calc1 --> Recipe1[Mass and Recipe Output]
-    Calc2 --> Recipe2[Dilution Instructions]
-```
+    PubChem -->|Auto-Fill MW| Tab5
+    
+    Calc1 --> Clipboard[One-Click Copy & Protocol Output]
+    Calc2 --> Clipboard
+    Calc3 --> Clipboard
+    
+    ---
 
-##  Tech Stack & Architecture
+    
+## 🛠️ Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
+
+
 * **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
+
+
+* **Equations & Thermodynamics:** Custom Antoine Equation solver & Clausius-Clapeyron vacuum estimators
+
+
 * **Deployment:** GitHub Pages continuous deployment
+
+
 
 ---
 
-##  Local Development & Build
+## 💻 Local Development & Build
 
 To run or build the web application locally:
 
 1. **Clone the repository:**
+
 ```bash
 git clone [https://github.com/efatihalbayin/chemst-web.git](https://github.com/efatihalbayin/chemst-web.git)
-
-```
-
+cd chemst-web
+```[cite: 6]
 
 2. **Get dependencies:**
 ```bash
 flutter pub get
-
-```
-
+```[cite: 6]
 
 3. **Run locally:**
 ```bash
 flutter run -d chrome
-
-```
-
+```[cite: 6]
 
 4. **Build for Web release:**
 ```bash
 flutter build web --release --base-href "/chemst-web/"
+```[cite: 6]
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for details[cite: 6].
+
+---
+
+## ✍️ Author & Developer
+
+Developed by **Ertan Fatih Albayın**[cite: 6]
+
+* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%25C4%25B1n-90a606279/)[cite: 6]
+* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)[cite: 6]
+* **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)[cite: 6]
 
 ```
-
-
-
----
-
-## License
-
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-##  Author
-
-Developed by **Ertan Fatih Albayın** from Istanbul Technical University (ITU)
-
-* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%25C4%25B1n-90a606279/)
-* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
-* **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
