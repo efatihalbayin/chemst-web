@@ -5,7 +5,7 @@
 <h1 align="center"> ChemST Web </h1>
 
 <p align="center">
-  <b>Interactive Chemical Solution, Buffer Protocol & Laboratory Calculation Web Application</b>
+  <b>Your Lab Partner</b>
 </p>
 
 <p align="center">
