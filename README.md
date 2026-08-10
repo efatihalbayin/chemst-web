@@ -136,5 +136,3 @@ Developed by **Ertan Fatih Albayın**
 * **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
 * **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
 * **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
-
-```
