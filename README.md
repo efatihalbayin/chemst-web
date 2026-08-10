@@ -29,7 +29,7 @@
 
 ---
 
-## 🚀 Live Access
+##  Live Access
 
 You can use the application directly in your web browser without any installation:
 
@@ -37,7 +37,7 @@ You can use the application directly in your web browser without any installatio
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 - **🔍 Live PubChem REST API Query:** Search compounds by name to fetch Molecular Weight (MW), IUPAC names, CAS numbers, 2D structural formulas, and copyable SMILES strings.
 - **🧪 Molar Solution Mass Calculator:** Calculate required solid mass for target molarities with automatic adjustments for purity (`% w/w`) and hydrate water molecules ($H_2O$).
@@ -50,7 +50,7 @@ You can use the application directly in your web browser without any installatio
 
 ---
 
-## 🧩 Module Overview
+##  Module Overview
 
 ```mermaid
 graph TD
@@ -79,7 +79,7 @@ graph TD
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
 * **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
@@ -88,7 +88,7 @@ graph TD
 
 ---
 
-## 💻 Local Development & Build
+##  Local Development & Build
 
 To run or build the web application locally:
 
@@ -123,20 +123,18 @@ flutter build web --release --base-href "/chemst-web/"
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
-## ✍️ Author & Developer
+##  Author & Developer
 
 Developed by **Ertan Fatih Albayın**
 
-* **LinkedIn:** [Ertan Fatih Albayın](https://www.google.com/search?q=https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
-* **GitHub:** [@efatihalbayin](https://www.google.com/search?q=https://github.com/efatihalbayin)
-* **Python Library:** [chemst on PyPI](https://www.google.com/url?sa=E&source=gmail&q=https://pypi.org/project/chemst/)
-
-```
+* **LinkedIn:** [Ertan Fatih Albayın](https://www.linkedin.com/in/ertan-fatih-albay%2525C4%2525B1n-90a606279/)
+* **GitHub:** [@efatihalbayin](https://github.com/efatihalbayin)
+* **Python Library:** [chemst on PyPI](https://pypi.org/project/chemst/)
 
 ```
