@@ -5,7 +5,7 @@
 <h1 align="center"> ChemST Web </h1>
 
 <p align="center">
-  <b>Your Lab Partner</b>
+  <b>Digital Laboratory Suite for Modern Chemistry & Research</b>
 </p>
 
 <p align="center">
