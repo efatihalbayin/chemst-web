@@ -45635,7 +45635,7 @@ $S:0}
 A.aqK.prototype={
 $0(){var s=window
 s.toString
-B.fw.w3(s,"https://github.com/efatihalbayin/chemst-web","_blank")},
+B.fw.w3(s,"https://github.com/efatihalbayin","_blank")},
 $S:0}
 A.apm.prototype={
 $0(){var s=this.a,r=this.b.i(0,"name")
