@@ -45305,23 +45305,23 @@ return new A.Ct(new A.y4(j,n,m,new A.WO(110,l,1/0,110+k),110,r),new A.Dn(s.d,A.b
 a6A(a,a0){var s,r,q,p,o,n,m,l,k=this,j=null,i="desc",h=new A.ie(Date.now(),0,!1),g=B.i.bJ(B.i.f5(h.fo(A.aNQ(A.aFg(h),1,1)).a,864e8),30),f=k.a4[g],e=k.c1[g],d=k.cT[g],c=k.bL[g],b=k.bs[g]
 g=A.bH(16)
 s=t.p
-r=A.cu(A.b([B.HP,B.bm,A.bk("\ud83d\udcdc This Day in Chemistry History",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.y,B.p,B.t,0)
+r=A.cu(A.b([B.HP,B.bm,A.bk("This Day in Chemistry History",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.y,B.p,B.t,0)
 q=b.i(0,"event")
 q.toString
 g=A.fd(new A.bb(B.bX,A.cr(A.b([r,B.eJ,A.bk(q,j,j,j,j,B.iC,j,j)],s),B.a6,B.p,B.t),j),3,new A.bG(g,B.m))
 q=A.bH(16)
-r=A.cu(A.b([B.HW,B.bm,A.cJ(A.bk("\ud83e\uddea Molecule of the Day: "+A.k(f.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.y,B.p,B.t,0)
+r=A.cu(A.b([B.HW,B.bm,A.cJ(A.bk("Molecule of the Day: "+A.k(f.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.y,B.p,B.t,0)
 p=f.i(0,i)
 p.toString
 p=A.bk(p,j,j,j,j,B.iB,j,j)
 r=A.fd(new A.bb(B.bX,A.cr(A.b([r,B.eJ,p,B.aN,new A.er(B.mz,j,j,new A.Dx(!0,new A.apm(k,f),j,j,j,j,B.v,j,!1,j,!0,j,new A.Z8(B.XQ,B.HX,j,j,j),j),j)],s),B.a6,B.p,B.t),j),3,new A.bG(q,B.m))
 q=A.bH(16)
-p=A.cu(A.b([B.HQ,B.bm,A.cJ(A.bk("\u2697\ufe0f Named Reaction of the Day: "+A.k(c.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.y,B.p,B.t,0)
+p=A.cu(A.b([B.HQ,B.bm,A.cJ(A.bk("Named Reaction of the Day: "+A.k(c.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.y,B.p,B.t,0)
 o=c.i(0,i)
 o.toString
 q=A.fd(new A.bb(B.bX,A.cr(A.b([p,B.eJ,A.bk(o,j,j,j,j,B.iB,j,j)],s),B.a6,B.p,B.t),j),3,new A.bG(q,B.m))
 o=A.bH(16)
-p=A.cu(A.b([B.HV,B.bm,A.bk("\ud83c\udfb5 Lab Soundtrack of the Day",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.y,B.p,B.t,0)
+p=A.cu(A.b([B.HV,B.bm,A.bk("Lab Soundtrack of the Day",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.y,B.p,B.t,0)
 n=e.i(0,"title")
 n.toString
 n=A.bk(n,j,j,j,j,B.lV,j,j)
@@ -45329,7 +45329,7 @@ m=e.i(0,i)
 m.toString
 o=A.fd(new A.bb(B.bX,A.cr(A.b([p,B.eJ,n,B.bn,A.bk(m,j,j,j,j,B.iB,j,j)],s),B.a6,B.p,B.t),j),3,new A.bG(o,B.m))
 m=A.bH(16)
-n=A.cu(A.b([B.HN,B.bm,A.bk("\ud83c\udfac Chemist\u2019s Movie Pick",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.y,B.p,B.t,0)
+n=A.cu(A.b([B.HN,B.bm,A.bk("ChemST\u2019s Movie Pick",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.N,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.y,B.p,B.t,0)
 p=d.i(0,"title")
 p.toString
 p=A.bk(p,j,j,j,j,B.lV,j,j)
@@ -45635,7 +45635,7 @@ $S:0}
 A.aqK.prototype={
 $0(){var s=window
 s.toString
-B.fw.w3(s,"https://github.com/ertanalbayin/chemst","_blank")},
+B.fw.w3(s,"https://github.com/efatihalbayin/chemst-web","_blank")},
 $S:0}
 A.apm.prototype={
 $0(){var s=this.a,r=this.b.i(0,"name")
