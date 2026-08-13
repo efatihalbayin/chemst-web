@@ -1,11 +1,11 @@
 {
-    "name": "chemst_app",
-    "short_name": "chemst_app",
+    "name": "ChemST",
+    "short_name": "ChemST",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Comprehensive Chemical Laboratory Platform and Calculator.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
