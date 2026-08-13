@@ -45813,7 +45813,7 @@ $S:0}
 A.art.prototype={
 $0(){var s=window
 s.toString
-B.fH.wi(s,"https://github.com/efatihalbayin/chemst-web","_blank")},
+B.fH.wi(s,"https://github.com/efatihalbayin","_blank")},
 $S:0}
 A.aq5.prototype={
 $0(){var s=this.a,r=this.b.i(0,"name")
