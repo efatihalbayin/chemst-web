@@ -45064,23 +45064,23 @@ return new A.Ch(new A.xX(j,m,l,new A.Ww(110,k,1/0,110+s),110,q),new A.Db(r.d,A.b
 a6h(a,a0){var s,r,q,p,o,n,m,l,k=this,j=null,i="desc",h=new A.ie(Date.now(),0,!1),g=B.i.bD(B.i.f2(h.fl(A.aN6(A.aEz(h),1,1)).a,864e8),30),f=k.a2[g],e=k.bV[g],d=k.cP[g],c=k.bF[g],b=k.br[g]
 g=A.bN(16)
 s=t.p
-r=A.cO(A.b([B.Hq,B.bp,A.bj("\ud83d\udcdc This Day in Chemistry History",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.A,B.r,B.t,0)
+r=A.cO(A.b([B.Hq,B.bp,A.bj("This Day in Chemistry History",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.A,B.r,B.t,0)
 q=b.i(0,"event")
 q.toString
 g=A.fb(new A.bm(B.bX,A.cB(A.b([r,B.eF,A.bj(q,j,j,j,j,B.iw,j,j)],s),B.a6,B.r,B.t),j),3,new A.bJ(g,B.m))
 q=A.bN(16)
-r=A.cO(A.b([B.Hx,B.bp,A.cE(A.bj("\ud83e\uddea Molecule of the Day: "+A.k(f.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.A,B.r,B.t,0)
+r=A.cO(A.b([B.Hx,B.bp,A.cE(A.bj("Molecule of the Day: "+A.k(f.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.A,B.r,B.t,0)
 p=f.i(0,i)
 p.toString
 p=A.bj(p,j,j,j,j,B.iv,j,j)
 r=A.fb(new A.bm(B.bX,A.cB(A.b([r,B.eF,p,B.aQ,new A.er(B.mu,j,j,new A.Dl(!0,new A.aoS(k,f),j,j,j,j,B.w,j,!1,j,!0,j,new A.YP(B.Xh,B.Hy,j,j,j),j),j)],s),B.a6,B.r,B.t),j),3,new A.bJ(q,B.m))
 q=A.bN(16)
-p=A.cO(A.b([B.Hr,B.bp,A.cE(A.bj("\u2697\ufe0f Named Reaction of the Day: "+A.k(c.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.A,B.r,B.t,0)
+p=A.cO(A.b([B.Hr,B.bp,A.cE(A.bj("Named Reaction of the Day: "+A.k(c.i(0,"name")),j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j),1)],s),B.A,B.r,B.t,0)
 o=c.i(0,i)
 o.toString
 q=A.fb(new A.bm(B.bX,A.cB(A.b([p,B.eF,A.bj(o,j,j,j,j,B.iv,j,j)],s),B.a6,B.r,B.t),j),3,new A.bJ(q,B.m))
 o=A.bN(16)
-p=A.cO(A.b([B.Hw,B.bp,A.bj("\ud83c\udfb5 Lab Soundtrack of the Day",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.A,B.r,B.t,0)
+p=A.cO(A.b([B.Hw,B.bp,A.bj("Lab Soundtrack of the Day",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.A,B.r,B.t,0)
 n=e.i(0,"title")
 n.toString
 n=A.bj(n,j,j,j,j,B.lQ,j,j)
@@ -45088,7 +45088,7 @@ m=e.i(0,i)
 m.toString
 o=A.fb(new A.bm(B.bX,A.cB(A.b([p,B.eF,n,B.bf,A.bj(m,j,j,j,j,B.iv,j,j)],s),B.a6,B.r,B.t),j),3,new A.bJ(o,B.m))
 m=A.bN(16)
-n=A.cO(A.b([B.Ho,B.bp,A.bj("\ud83c\udfac Chemist\u2019s Movie Pick",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.A,B.r,B.t,0)
+n=A.cO(A.b([B.Ho,B.bp,A.bj("ChemST\u2019s Movie Pick",j,j,j,j,A.cm(j,j,a0,j,j,j,j,j,j,j,j,16,j,j,B.M,j,j,!0,j,j,j,j,j,j,j,j),j,j)],s),B.A,B.r,B.t,0)
 p=d.i(0,"title")
 p.toString
 p=A.bj(p,j,j,j,j,B.lQ,j,j)
