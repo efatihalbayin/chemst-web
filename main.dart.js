@@ -45286,7 +45286,7 @@ am(){return new A.F6()}}
 A.F6.prototype={
 alq(){this.X(new A.anY(this))},
 K(a){var s=null,r=A.rI(B.at,s,s).WY(B.BR,B.EA,B.EO),q=A.rI(B.am,s,s).WY(B.BS,B.EB,B.F2),p=this.d,o=p?r:q,n=p?r:q
-return A.aAp(new A.Bi(new A.Df(new A.Ay(p,this.galp(),s),s),"ChemST",n,!1,s),B.ac,o,B.bE)}}
+return A.aAp(new A.Bi(new A.Df(new A.Ay(p,this.galp(),s),s),"ChemST: Digital Laboratory Terminal",n,!1,s),B.ac,o,B.bE)}}
 A.anY.prototype={
 $0(){var s=this.a
 s.d=!s.d},
