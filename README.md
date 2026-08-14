@@ -5,7 +5,7 @@
 <h1 align="center"> ChemST Web </h1>
 
 <p align="center">
-  <b>Digital Laboratory Suite for Modern Chemistry & Research</b>
+  <b>Digital Laboratory Terminal</b>
 </p>
 
 <p align="center">
@@ -25,19 +25,19 @@
 
 ---
 
-**ChemST Web** is the official interactive frontend for the **ChemST** stoichiometry and laboratory engine. Designed for computational chemists, laboratory researchers, academicians, and students, it provides an intuitive, high-precision dark/light-themed interface for preparing chemical solutions, executing stock dilutions, generating buffer protocols, and performing advanced physical/chemical conversions.
+**ChemST Web** is the official interactive frontend for the **ChemST** stoichiometry and laboratory engine. Designed for computational chemists, laboratory researchers, academicians, and students, it provides an intuitive, high-precision retro-themed interface with pixel typography for preparing chemical solutions, executing stock dilutions, generating buffer protocols, and exploring full periodic table properties.
 
 ---
 
-##  Live Access
+## Live Access
 
 You can use the application directly in your web browser without any installation:
 
-👉 **[Launch ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)**
+👉 **[Launch ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)[cite: 3]**
 
 ---
 
-##  Key Features
+## Key Features
 
 - **Live PubChem REST API Query:** Search compounds by name to fetch Molecular Weight (MW), IUPAC names, CAS numbers, 2D structural formulas, and copyable SMILES strings.
 - **Molar Solution Mass Calculator:** Calculate required solid mass for target molarities with automatic adjustments for purity (`% w/w`) and hydrate water molecules ($H_2O$).
@@ -45,12 +45,13 @@ You can use the application directly in your web browser without any installatio
 - **Buffer & Recipe Wizard:** Automated protocol generator for standard laboratory buffers (*Tris-HCl, PBS 1X, HEPES, TE, TAE, Citrate, MOPS, etc.*) with step-by-step preparation guidelines.
 - **Comprehensive Chemical Unit Converter:** Convert Molar subunits ($\text{M}$ to $\text{pM}$), Analytical units ($\text{ppm, ppb, mg/L}$), Stock Acid/Base concentration & Normality ($\text{N}$), Physical units ($\text{mbar, mmHg, °C, K}$), and Spectroscopy energy ($\text{nm, cm}^{-1}, \text{eV, kJ/mol}$).
 - **Rotavap & Solvent Miscibility Helper:** Check phase separation behavior (biphasic vs. miscible) across 13+ solvents and calculate vacuum boiling points using Antoine equations.
+- **118-Element Periodic Table Info Hub:** Instant tabular lookup for atomic weight, atomic number, electronic configuration, standard phase, and electronegativity across all elements from Hydrogen to Oganesson.
+- **Matrix Terminal System Log:** Real-time retro cyber-matrix boot sequence displaying live system kernel and module statuses.
 - **One-Click Recipe Copying:** Instant Clipboard integration to easily copy preparation instructions for lab notebooks or messaging.
-- **Responsive UI & Theme Switcher:** Smooth cross-device layout featuring a signature dark mode designed for low-light laboratory environments.
 
 ---
 
-##  Module Overview
+## Module Overview
 
 ```mermaid
 graph TD
@@ -60,6 +61,7 @@ graph TD
     User --> Tab4[Buffer Wizard]
     User --> Tab5[Unit Converter]
     User --> Tab6[Rotavap & Solvents]
+    User --> Tab7[Element Info Hub]
     
     Tab1 -->|REST API Request| PubChem[(NCBI PubChem API)]
     Tab2 -->|Stoichiometric Core| Calc1[Mass & Hydration Engine]
@@ -67,6 +69,7 @@ graph TD
     Tab4 -->|Protocol Engine| Calc3[Buffer Recipe Generator]
     Tab5 -->|Conversion Engine| Calc4[Multi-Unit Converter]
     Tab6 -->|Thermodynamic Engine| Calc5[Antoine & Miscibility Checker]
+    Tab7 -->|Periodic Database| Calc6[118-Element Tabular Lookup]
     
     PubChem -->|Auto-Fill MW| Tab2
     PubChem -->|Auto-Fill MW| Tab5
@@ -79,7 +82,7 @@ graph TD
 
 ---
 
-##  Tech Stack & Architecture
+## Tech Stack & Architecture
 
 * **Frontend:** [Flutter Web](https://flutter.dev/) (Dart)
 * **API Integration:** [PubChem PUG REST API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) via `http` package
@@ -88,7 +91,7 @@ graph TD
 
 ---
 
-##  Local Development & Build
+## Local Development & Build
 
 To run or build the web application locally:
 
