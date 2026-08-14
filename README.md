@@ -33,7 +33,7 @@
 
 You can use the application directly in your web browser without any installation:
 
-👉 **[Launch ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)[cite: 3]**
+👉 **[Launch ChemST Web Application](https://efatihalbayin.github.io/chemst-web/)**
 
 ---
 
